@@ -1,0 +1,34 @@
+object pepita
+{
+ var energia = 100
+ method comer(comidaGramos)
+  { 
+   energia = energia + comidaGramos*2
+  }
+ method volar(kms)
+  {
+   energia = energia - (kms/10)
+  }
+}
+
+object pepito
+{
+ var energia=120
+ method comer(comidaGramos)
+ {
+  energia=energia+comidaGramos
+ }
+}
+
+object bowling747
+{
+ var nafta=0
+ method volar(kms)
+ {
+  nafta=nafta-(kms/1000)+30
+ }
+ method cargar(litros)
+ {
+  nafta=nafta+litros
+ }
+} 
